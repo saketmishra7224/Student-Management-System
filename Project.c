@@ -13,7 +13,7 @@ struct student {
 struct node {
     struct node* left;
     struct student data;
-    struct node* right;
+    struct node* right
 };
 
 struct node* newNode(struct student data) {
